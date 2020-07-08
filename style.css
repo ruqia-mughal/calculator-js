@@ -1,0 +1,77 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.keyboard input{
+  
+    width: 100px;
+    height: 70px;
+     margin:2px;
+}
+.keyboard{
+     margin: 2px;
+}
+.keyboardmain{
+    background-image: linear-gradient(to right top, #d16ba5, #d868af, #de65bb, #e362c7,
+     #e760d5, #f15dc8, #f95cbb, #ff5cae, #ff7189, #f3b69c, #fcdba1, #fbe75f); 
+   
+     border:14px  rgba(211, 78, 144, 0.549);
+     border-style: groove;
+     border-radius: 23px;
+    width: 320px;
+    height: 500px;
+    margin: 0 auto!important;
+    display: flex;
+    flex-direction: column !important;
+}
+.display{
+    padding:12px ;
+     color: green;
+    font-size: xx-large;
+}
+.display input{
+    width:100%;
+    cursor: text;
+    border:8px  rgba(117, 8, 63, 0.549);
+    border-style: groove;
+}
+.three{
+    color:hotpink !important;
+    font-size: large !important;
+    border-radius: 13px;
+    width: 83px !important;
+    height: 40px !important;
+    margin: 2px !important;
+    cursor: pointer;
+    border: none !important;
+}
+.btn-1{
+   
+    color:hotpink !important;
+   font-size: large !important;
+   border-radius: 13px;
+    width: 60px !important;
+    height: 40px !important;
+    margin: 2px;
+    cursor: pointer;
+}
+.three:focus{
+    border-top: 3px solid rgb(132, 76, 221) !important;
+    border-bottom: 2px solid lightseagreen !important;
+   border-right:3px solid rgb(165, 12, 236) !important;
+   border-left: 2px solid greenyellow !important;
+   border-radius: 13px;
+    outline:none !important;
+    
+    color:green !important
+}
+.btn-1:focus{
+    border-top: 3px solid rgb(132, 76, 221);
+    border-bottom: 2px solid lime;
+   border-right:3px solid lightseagreen;
+   border-left: 2px solid rgb(180, 199, 10);
+     outline:none !important;
+     font-size: x-large !important;
+     color:green !important;
+}
